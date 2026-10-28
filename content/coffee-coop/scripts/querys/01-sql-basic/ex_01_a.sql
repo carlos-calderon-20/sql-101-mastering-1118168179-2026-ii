@@ -3,7 +3,7 @@
 
 
 SELECT *
-coffee_coop_db-> FROM geo.departments 
+FROM geo.departments 
 
 //**
 department_code |                     department_name
