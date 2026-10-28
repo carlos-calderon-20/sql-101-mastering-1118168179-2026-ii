@@ -3,9 +3,9 @@
 
 
 SELECT
-coffee_coop_db->     department_code AS code,
-coffee_coop_db->     department_name AS departments
-coffee_coop_db-> FROM geo.departments;
+    department_code AS code,
+    department_name AS departments
+FROM geo.departments;
 
 //**
 code |                       departments
