@@ -7,7 +7,7 @@ coffee_coop_db->     department_code AS code,
 coffee_coop_db->     department_name AS departments
 coffee_coop_db-> FROM geo.departments;
 
-//**
+/**
 code |                       departments
 ------+----------------------------------------------------------
  05   | Antioquia
@@ -43,4 +43,4 @@ code |                       departments
  95   | Guaviare
  97   | Vaupés
  99   | Vichada
- //*
+ **/
