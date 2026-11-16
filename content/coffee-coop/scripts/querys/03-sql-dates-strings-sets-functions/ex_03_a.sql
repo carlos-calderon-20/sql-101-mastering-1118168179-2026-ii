@@ -11,5 +11,13 @@ GROUP BY EXTRACT(dow FROM T1.delivered_at)
 ORDER BY EXTRACT(dow FROM T1.delivered_at) ASC;
 
 /*
--- PEGAR AQUI EL RESULTADO
+ day_of_week | deliveries_count | total_gross_kg
+-------------+------------------+----------------
+           0 |             1230 |      221024.65
+           1 |             1234 |      221199.72
+           2 |             1515 |      263977.32
+           3 |             1511 |      269496.31
+           4 |             1250 |      221423.80
+           5 |             1237 |      219113.26
+           6 |             1207 |      217700.09
 */
