@@ -10,5 +10,9 @@ GROUP BY T1.gender
 ORDER BY T1.gender ASC;
 
 /*
--- PEGAR AQUI EL RESULTADO
+ gender | farmers_count | avg_age_years
+--------+---------------+---------------
+ F      |           111 |         49.59
+ M      |           115 |         51.31
+ O      |             4 |         46.25
 */

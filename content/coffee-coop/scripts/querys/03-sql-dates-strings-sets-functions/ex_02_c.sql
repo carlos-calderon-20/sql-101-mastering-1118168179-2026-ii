@@ -14,5 +14,19 @@ HAVING AVG(DATE_PART('year', AGE(DATE '2026-09-30', T1.birth_date))) > 51
 ORDER BY T2.municipality_name ASC;
 
 /*
--- PEGAR AQUI EL RESULTADO (primeras 10 filas) E INDICAR EL TOTAL: (N rows)
+  municipality   | farmers_count | avg_age_years
+------------------+---------------+---------------
+ Arboledas        |           235 |         51.49
+ Bochalema        |           224 |         51.59
+ Bucarasica       |           188 |         51.49
+ Cßchira          |           206 |         51.73
+ Cßcota           |           222 |         51.78
+ Chitagß          |           209 |         51.21
+ El Carmen        |           218 |         52.60
+ La Esperanza     |           199 |         51.28
+ Mutiscua         |           216 |         51.86
+ Puerto Santander |           194 |         51.79
+ Ragonvalia       |           244 |         51.16
+ Sardinata        |           197 |         51.15
+ Silos            |           206 |         52.07
 */
