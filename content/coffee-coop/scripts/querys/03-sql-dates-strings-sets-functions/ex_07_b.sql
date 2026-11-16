@@ -15,8 +15,15 @@ WHERE T2.municipality_code LIKE '54%'
 ORDER BY municipality_code ASC;
 
 /*
--- PEGAR AQUI EL RESULTADO DE LA CONSULTA 1 (primeras 10 filas)
-(N rows)
+ municipality_code
+-------------------
+ 54001
+ 54003
+ 54051
+ 54099
+ 54109
+ 54125
+ 54128
 */
 
 -- Query 2: UNION ALL
@@ -32,6 +39,12 @@ WHERE T2.municipality_code LIKE '54%'
 ORDER BY municipality_code ASC;
 
 /*
--- PEGAR AQUI EL RESULTADO DE LA CONSULTA 2 (primeras 10 filas)
-(N rows)
+municipality_code
+-------------------
+ 54001
+ 54001
+ 54001
+ 54001
+ 54001
+ 54001
 */
